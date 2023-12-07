@@ -1,0 +1,417 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    width: 1440px;
+    background-color: #F2F2F2;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+/* ========= header =========== */
+header {
+    background: transparent;
+    width: 100%;
+    height: 29.46px;
+    margin-top: 35.02px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+}
+
+.logo img {
+    width: 167.02px;
+    margin-left: 171.59px;
+}
+
+.menu {
+    margin-right: 171.59px;
+}
+
+.menu a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* ===========section banner============= */
+
+.banner {
+    background-image: url(images/background.png);
+    width: 1440px;
+    height: 1093px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.banner_content {
+    padding-top: 250px;
+    text-align: center;
+}
+
+.banner_content h1{
+    color: #FFFFFF;
+    font-size: 120px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.banner_content span {
+    margin: 20px 40px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.banner_content button {
+    height: 44px;
+    width: 162px;
+    background-color: #C271FF;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 40px;
+    border-radius: 22px;
+    padding: 13px 20px;
+    box-shadow: 0px 0px 20px 3px #494949;
+}
+
+.learn_pros {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn_pros h2 {
+    padding-top: 140px;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.learn_pros h2 span {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.card_pros {
+    margin-top: 90px;
+    width: 1009px;
+    height: 237px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item_card {
+    width: 160px;
+    height: 237px;
+    text-align: center;
+}
+
+.item_card img {
+    margin-bottom: 10px;
+}
+
+.item_card h3 {
+    font-size: 18px;
+    height: 27px;
+}
+
+.item_card p {
+    font-style: italic;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.card_pros .nannie img{
+    border-radius: 50%;
+}
+
+/* =============== section ================= */
+
+.quote {
+    width: 100%;
+    height: 392px;
+    background-color: #C271FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 943px;
+    color: #FFFFFF;
+}
+
+.quote_container img {
+    width: 200px;
+}
+
+.quote_container img {
+    padding-right: 53px;
+}
+
+.quote_container blockquote {
+    font-size: 22px;
+    line-height: 33.6px;
+    font-weight: 300;
+}
+
+.quote_container .name {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.quote_container p {
+    font-size: 22px;
+    font-weight: 200;
+}
+
+/* ========== section video ===========  */
+
+.populars {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.populars h1 {
+    font-size: 32px;
+    font-weight: 300;
+}
+.populars h1 span{
+    font-weight: bold;
+    color: #C271FF;
+}
+
+.popular_container {
+    background-color: #fff;
+    padding: 30px 20px;
+    width: 1228px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    width: 255px;
+    height: 335px;
+    margin: auto;
+    position: relative;
+}
+
+.video .play {
+    position: absolute;
+    top: 45px;
+    left: 90px;
+}
+
+.video h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 7px;
+}
+
+.video p {
+    color: rgba(7, 22, 41, 0.5016);
+    font-size: 14px;
+    width: 242px;
+    margin-bottom: 20px;
+    margin-left: 7px;
+}
+
+.video .author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 7px;
+}
+
+.author h3 {
+    color: rgba(194, 113, 255, 1);
+    font-size: 14px;
+}
+
+.video .author img {
+    margin-right: 15px;
+}
+
+.start {
+    margin: 0 7px;
+    position: relative;
+}
+
+.start p {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    color: #C271FF;
+}
+
+/* ==============membership============ */
+
+.membership {
+    width: 100%;
+    height: 502px;
+    background-color: rgba(7, 22, 41, 1);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.membership h1 {
+    font-weight: 300;
+    font-size: 32px;
+    margin-top: 60px;
+}
+
+.membership h1 span {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.smiles {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+}
+
+.item_smile {
+    width: 257px;
+    height: 153px;
+}
+
+.item_smile img {
+    margin-bottom: 20px;
+    width: 43.67px;
+    height: 35.35px;
+}
+
+.item_smile h2 {
+    font-size: 18px;
+}
+
+.item_smile p {
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 1.7;
+}
+
+.membership button {
+    width: 162px;
+    height: 44px;
+    color: #FFFFFF;
+    background-color: #C271FF;
+    border-radius: 22px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+/* ========== faq =========== */
+
+.questions {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.questions h1 {
+    margin-top: 40px;
+    font-size: 60px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.faq {
+    width: 920px;
+    height: 707px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_faq {
+    margin: 80px 100px;
+    width: 350px;
+    height: 242px;
+}
+
+.item_faq h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.item_faq p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(7, 22, 41, 0.5016);
+}
+
+/* ========= Footer ============ */
+
+.footer {
+    width: 100%;
+    height: 249px;
+    background-color: rgba(7, 22, 41, 1);
+    position: relative;
+}
+
+.content_footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.content_footer .img_footer {
+    width: 169px;
+    height: 30px;
+}
+
+.social {
+    width: 130px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+    color: rgb(110, 110, 110);
+    font-size: 12px;
+    font-weight: 400;
+}
